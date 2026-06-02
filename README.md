@@ -92,7 +92,7 @@ Make sure the following software is installed:
 
 ```bash
 git clone <repository-url>
-cd RailBook
+cd ticket-booking
 ```
 
 ---
@@ -188,9 +188,10 @@ POST /api/register-passenger
 
 ```json
 {
-  "name": "John Doe",
-  "departure": "Indore",
-  "arrival": "Bhopal",
+  "id": "1001",
+  "name": "Peter",
+  "departure": "Delhi",
+  "arrival": "Bengaluru",
   "dateOfJourney": "2026-06-01"
 }
 ```
@@ -254,19 +255,6 @@ http://localhost:8080/swagger-ui/index.html
 * Docker Containerization
 * CI/CD Pipeline
 * Service Discovery using Eureka
-
----
-
-## 📸 Screenshots
-
-Add screenshots of:
-
-* Home Page
-* Passenger Registration Form
-* Ticket Details Page
-* Swagger UI
-
----
 
 ---
 
