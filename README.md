@@ -1,12 +1,12 @@
-# Microservices Ticket Booking System
+# Ticket Booking System
 
-A full-stack, microservices-based ticket booking application built using Spring Boot, React, and MySQL. This project demonstrates a scalable and decoupled architecture with an API Gateway, Backend Microservice, and Frontend UI working together to provide a seamless ticket booking experience.
+A full-stack, ticket booking application built using Spring Boot, React, and MySQL. This project demonstrates a scalable and decoupled architecture with an API Gateway, Backend Microservice, and Frontend UI working together to provide a seamless ticket booking experience.
 
 ---
 
 ## 🏗️ Architecture Overview
 
-The application follows a microservices architecture and is divided into three layers:
+The application follows a MVC architecture and is divided into three layers:
 
 
 ### Architecture Flow
